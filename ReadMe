@@ -1,0 +1,61 @@
+# Task Management App (React + Vite + Tailwind + TypeScript) and Server (Express + Sequelize + Postgres)
+
+This project is a **frontend-only Task Management application** built with:
+
+-   ⚡ Vite (React + TypeScript)
+-   🎨 TailwindCSS
+-   💾 LocalStorage persistence (no backend required)
+-   📋 Boards → Lists → Tasks structure
+
+------------------------------------------------------------------------
+
+## 🚀 Features
+
+-   Create multiple **Boards**
+-   Each board contains **Lists** (Todo, In Progress, Done, etc.)
+-   Each list contains **Tasks**
+-   Task details: title, description, priority, created date
+-   CRUD operations for boards, lists, and tasks
+-   Rename items via **double-click**
+-   Confirm dialogs before deletions
+-   Responsive and optimized UI
+-   Data automatically saved to **localStorage**
+
+------------------------------------------------------------------------
+
+
+
+## 📂 Frontend Structure: cd /client
+
+    src/
+     ├── App.tsx          # Root component (includes state & persistence)
+     ├── components/      # (Optional) split components here if needed
+     ├── main.tsx         # Vite entry point
+     └── index.css        # Tailwind base styles
+
+------------------------------------------------------------------------
+
+## 🛠️ Installation & Setup
+
+
+
+2.  Install dependencies:
+
+``` bash
+npm install
+```
+
+3. set in .env
+BACKEND_URL=http://localhost:9005
+
+
+
+
+
+4.   Start the dev server:
+
+``` bash
+npm run dev
+```
+
+------------------------------------------------------------------------
